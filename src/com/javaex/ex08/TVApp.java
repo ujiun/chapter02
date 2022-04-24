@@ -7,7 +7,7 @@ public class TVApp {
 		TV tv = new TV(7, 20, false);
 		tv.power(true);
 		
-		tv.channel(500);
+		tv.channel(256);
 		tv.status();
 		tv.channel(-200);
 		tv.status();

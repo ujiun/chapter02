@@ -40,12 +40,13 @@ public class TV {
 	}
 	
 	public void channel(int channel) {
+		if(this.power==true) {
 			if(channel<=1) {
 				this.channel=1;
 			}else if(channel>=225) {
 				this.channel=225;
 			}
-		
+		}
 	}
 	
 	public void channel(boolean up) {
@@ -59,10 +60,12 @@ public class TV {
 	}
 	
 	public void volume(int voluem) {
-		if(voluem<=0) {
-			this.volume=0;
-		}else if(voluem>=100) {
-			this.volume=100;
+		if(this.power==true) {
+			if(voluem<=0) {
+				this.volume=0;
+			}else if(voluem>=100) {
+				this.volume=100;
+			}
 		}
 	}
 	
