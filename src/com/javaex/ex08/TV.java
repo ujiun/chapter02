@@ -14,7 +14,7 @@ public class TV {
 	public TV(int channel, int volume, boolean power) {
 		this.channel = channel;
 		this.volume = volume;
-		this.power = false;
+		this.power = power;
 	}
 
 
