@@ -38,5 +38,14 @@ public class TVApp {
 		
 		tv.power(true);
 		tv.status();
+		tv.volume(true);
+		tv.status();
+		tv.power(true);
+		tv.status();
+		tv.channel(true);
+		tv.channel(true);
+		tv.channel(true);
+		tv.status();
+
 	}
 }
